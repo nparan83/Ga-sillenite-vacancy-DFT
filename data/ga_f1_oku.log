@@ -1,0 +1,17 @@
+ad         JD            E(Ry) dE/at_meV  P(kbar)   F(Ry/b)   EF(eV)  nit      wall
+S_e080k2    1   -4806.81381743     2.429     0.60   0.01981   9.6599   14  4m31.93s
+S_e070k2    1   -4806.69206735    27.527   -20.84   0.01894   9.6750   14  3m14.25s
+S_e090k2    1   -4806.82316697     0.502     3.90   0.01989   9.6721   14  4m43.68s
+S_e100k2    1   -4806.82560029     0.000     3.39   0.01726   9.6597   14  6m18.44s
+S_e080k1    1   -4806.71070093    21.578     2.97   0.05355   9.5958   14  1m13.30s
+S_e080k3    1   -4806.81537369     0.000     0.54   0.01980   9.6528   14  4m30.24s
+B_e080k2    1   -4775.01093874       nan    -3.13   0.02058  10.6710   14  4m25.41s
+A_e080k2    1   -4774.95626047       nan     4.60   0.02134  10.7573   14  4m27.01s
+B_e100k2    1   -4775.02173699       nan    -0.44   0.02155  10.6708   14   6m9.54s
+A_e100k2    1   -4774.96727125       nan     7.30   0.02005  10.7570   14   6m8.24s
+k: dE/at(k2-k3) = 0.321 meV (S_e080k1/k3 satirlari k3 referansli; ecut satirlari e100 referansli)
+dE(A-B) e80 = +0.7439 eV  (Fe Makale A, relakse: +0.636; burada Fe geometrisi, RELAKSE DEGIL)
+dE(A-B) e100 = +0.7410 eV  (Fe Makale A, relakse: +0.636; burada Fe geometrisi, RELAKSE DEGIL)
+gaS_rel: JD 1 bfgs 1 adim 10 E -4806.81440564 Ry P 0.78 kbar F 0.00064 wall 32m28.38s
+a = 10.3625 A (kubik varsayim) | Ga-O: 1.903 1.903 1.903 1.903 (Fe-O 4x1.917) | Bi_tet-O: 2.030 2.030 2.030 2.030 (Fe hucresinde 4x2.031)
+yazildi: 02_O40/gaS_rel.pos

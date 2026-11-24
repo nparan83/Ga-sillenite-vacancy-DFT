@@ -12,11 +12,11 @@ Author: Nejdet Paran, Department of Physics, Faculty of Science, Erciyes Univers
 
 | path | content |
 |---|---|
-| `calc/<stage>.tar.gz` | Quantum ESPRESSO inputs, outputs and `data-file-schema.xml` of every calculation, one archive per stage (see below). Archives larger than 9 MB are split: `cat <stage>.tar.gz.part_* > <stage>.tar.gz`. Wavefunctions, charge densities and pseudopotential files are not included. |
+| `calc/<stage>.tar.gz` | Quantum ESPRESSO inputs, outputs and `data-file-schema.xml` of every calculation, one archive per stage (see below). Archives larger than 9 MB are split: `cat 04_eos.tar.gz.part_* > 04_eos.tar.gz`. Wavefunctions, charge densities and pseudopotential files are not included. |
 | `data/` | Derived data files read by the figure script, the summary logs written by the analysis scripts (`*_oku.log`), the table file `ga_tablolar.txt`, and the relaxed structures (`*.xsf`, Cartesian Å). |
-| `scripts/` | Analysis scripts that generate the inputs (`uret`) and read the outputs (`oku`) of each stage on the cluster; `scripts_md5.txt` lists their MD5 sums. `ga_paket.sh` builds the `calc/` archives. |
+| `scripts/` | Analysis scripts that generate the inputs (`uret`) and read the outputs (`oku`) of each stage on the cluster; `scripts_md5.txt` lists their MD5 sums. `ga_paket.sh` builds the `calc/` archives. `scripts/jobs/` holds the SLURM job scripts (TRUBA, 56 cores per job). |
 | `figures/make_figures_colab.py` | Produces Figs. 1–6 from `data/` (Google Colab or local Python). |
-| `MANIFEST.md5` | MD5 sums of all files (added with `calc/`). |
+| `MANIFEST.md5` | MD5 sums of all files; check with `md5sum -c MANIFEST.md5`. |
 
 ### Calculation stages (`calc/`)
 
@@ -56,7 +56,7 @@ SILB_LOCAL=data SILB_OUT=figures/out python3 figures/make_figures_colab.py
 
 ## Computational details (summary)
 
-Quantum ESPRESSO 7.2; PBE; SG15 ONCV pseudopotentials v1.0 (`Bi_ONCV_PBE-1.0.upf`, `Ga_ONCV_PBE-1.0.upf`, `O_ONCV_PBE-1.0.upf`, `Si_ONCV_PBE-1.0.upf`; MD5 sums in `data/envanter_B.log`, added with `calc/`); 80/320 Ry for relaxations and site energies, 90/360 Ry for equations of state; 2 × 2 × 2 Monkhorst–Pack mesh; Gaussian smearing 0.005 Ry; spin-unpolarized; `etot_conv_thr = 1e-5` Ry, `forc_conv_thr = 1e-4` Ry/bohr; ordered P23 cell, a = 10.3625 Å. PAW projections: pslibrary 1.0.0, 60/480 Ry. HSE06: `ecutfock` 160 Ry, q-mesh 1 × 1 × 1, fixed occupations. Full details in the article.
+Quantum ESPRESSO 7.2; PBE; SG15 ONCV pseudopotentials v1.0 (`Bi_ONCV_PBE-1.0.upf`, `Ga_ONCV_PBE-1.0.upf` [MD5 72d1ce27…], `O_ONCV_PBE-1.0.upf`, `Si_ONCV_PBE-1.0.upf` [MD5 2de5a83d…]); 80/320 Ry for relaxations and site energies, 90/360 Ry for equations of state; 2 × 2 × 2 Monkhorst–Pack mesh; Gaussian smearing 0.005 Ry; spin-unpolarized; `etot_conv_thr = 1e-5` Ry, `forc_conv_thr = 1e-4` Ry/bohr; ordered P23 cell, a = 10.3625 Å. PAW projections: pslibrary 1.0.0 (`Bi.pbe-dn-kjpaw_psl.1.0.0.UPF`, `Ga.pbe-dnl-kjpaw_psl.1.0.0.UPF` [MD5 b6829151…], `O.pbe-n-kjpaw_psl.1.0.0.UPF`), 60/480 Ry. HSE06: `ecutfock` 160 Ry, q-mesh 1 × 1 × 1, fixed occupations. Full details in the article.
 
 Starting geometries of the vacancy configurations A, B and C are the relaxed iron-sillenite structures of a companion study (N. Paran, submitted to J. Solid State Chem., JSSC-26-2217) with Fe replaced by Ga; those iron structures belong to that study and are not redistributed here. External structures: α-Ga (COD 9008085), β-Ga₂O₃ (COD 2004987), Bi₁₂SiO₂₀ (COD 1533225).
 

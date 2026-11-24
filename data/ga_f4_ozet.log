@@ -1,0 +1,36 @@
+== B (Bi25GaO39) ==
+  s 0.940 V   924.22 E-E1   7.0326 eV P  14.93 GPa Ga -0.021 Bt +0.491  gaB_s0.940
+  s 0.960 V   984.48 E-E1   2.7738 eV P   8.10 GPa Ga -0.025 Bt +0.440  gaB_s0.960
+  s 0.980 V  1047.30 E-E1   0.6085 eV P   3.27 GPa Ga -0.022 Bt +0.383  gaB_s0.980
+  s 0.990 V  1079.68 E-E1   0.1377 eV P   1.45 GPa Ga -0.019 Bt +0.350  gaB_s0.990
+  s 1.000 V  1112.73 E-E1   0.0000 eV P  -0.08 GPa Ga -0.013 Bt +0.320  gaB_s1.000_f1.010
+  s 1.005 V  1129.51 E-E1   0.0335 eV P  -0.57 GPa Ga -0.052 Bt +0.301  gaB_s1.005_o
+  s 1.010 V  1146.45 E-E1   0.1202 eV P  -1.01 GPa Ga -0.104 Bt +0.305  gaB_s1.010
+  s 1.020 V  1180.84 E-E1   0.4119 eV P  -1.73 GPa Ga -0.117 Bt +0.253  gaB_s1.020
+  0.940-0.960 yerel B 108.1 GPa | P_ort  11.51 | -dE/dV  11.32 GPa
+  0.960-0.980 yerel B  78.2 GPa | P_ort   5.68 | -dE/dV   5.52 GPa
+  0.980-0.990 yerel B  59.7 GPa | P_ort   2.36 | -dE/dV   2.33 GPa
+  0.990-1.000 yerel B  50.9 GPa | P_ort   0.68 | -dE/dV   0.67 GPa
+  1.000-1.005 yerel B  32.8 GPa | P_ort  -0.33 | -dE/dV  -0.32 GPa
+  1.005-1.010 yerel B  28.9 GPa | P_ort  -0.79 | -dE/dV  -0.82 GPa
+  1.010-1.020 yerel B  24.6 GPa | P_ort  -1.37 | -dE/dV  -1.36 GPa
+  7 nokta (s=1.00 en dusuk)      n=7 V0 1114.68 a0 10.3685 | B0 41.2 GPa B0p 7.49 | artik 18.44 meV | maks|dP| 0.24 GPa | P -1.73..14.93
+  sikistirma kolu 0.94-1.00      n=5 V0 1111.40 a0 10.3583 | B0 45.6 GPa B0p 6.36 | artik 0.25 meV | maks|dP| 0.07 GPa | P -0.08..14.93
+  duyarlilik: 0.94-1.005         n=6 V0 1111.87 a0 10.3598 | B0 45.1 GPa B0p 6.48 | artik 2.63 meV | maks|dP| 0.10 GPa | P -0.57..14.93
+== S (Bi25GaO40) ==
+  s 0.940 V   924.22 E-E1   7.8987 eV P  15.81 GPa Ga +0.000 Bt +0.000  gaS_s0.940
+  s 0.960 V   984.48 E-E1   3.3477 eV P   8.94 GPa Ga +0.000 Bt +0.000  gaS_s0.960
+  s 0.980 V  1047.30 E-E1   0.8657 eV P   3.95 GPa Ga +0.000 Bt +0.000  gaS_s0.980
+  s 0.990 V  1079.68 E-E1   0.2582 eV P   2.15 GPa Ga +0.000 Bt +0.000  gaS_s0.990
+  s 1.000 V  1112.73 E-E1   0.0000 eV P   0.41 GPa Ga +0.000 Bt +0.000  gaS_s1.000
+  s 1.010 V  1146.45 E-E1   0.0413 eV P  -0.89 GPa Ga +0.000 Bt +0.000  gaS_s1.010
+  s 1.020 V  1180.84 E-E1   0.3725 eV P  -2.06 GPa Ga +0.000 Bt +0.000  gaS_s1.020
+  0.940-0.960 yerel B 108.9 GPa | P_ort  12.38 | -dE/dV  12.10 GPa
+  0.960-0.980 yerel B  80.6 GPa | P_ort   6.45 | -dE/dV   6.33 GPa
+  0.980-0.990 yerel B  59.3 GPa | P_ort   3.05 | -dE/dV   3.01 GPa
+  0.990-1.000 yerel B  57.7 GPa | P_ort   1.28 | -dE/dV   1.25 GPa
+  1.000-1.010 yerel B  43.6 GPa | P_ort  -0.24 | -dE/dV  -0.20 GPa
+  1.010-1.020 yerel B  39.5 GPa | P_ort  -1.48 | -dE/dV  -1.54 GPa
+  7 nokta (s=1.00 en dusuk)      n=7 V0 1123.48 a0 10.3957 | B0 47.3 GPa B0p 5.41 | artik 6.33 meV | maks|dP| 0.15 GPa | P -2.06..15.81
+  sikistirma kolu 0.94-1.00      n=5 V0 1123.06 a0 10.3944 | B0 47.6 GPa B0p 5.37 | artik 1.45 meV | maks|dP| 0.15 GPa | P 0.41..15.81
+yazildi: 99_analiz/eos_ozet.dat
