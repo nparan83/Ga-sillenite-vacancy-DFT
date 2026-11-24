@@ -56,11 +56,11 @@ SILB_LOCAL=data SILB_OUT=figures/out python3 figures/make_figures_colab.py
 
 ## Computational details (summary)
 
-Quantum ESPRESSO 7.2; PBE; SG15 ONCV pseudopotentials v1.0 (`Bi_ONCV_PBE-1.0.upf`, `Ga_ONCV_PBE-1.0.upf`, `O_ONCV_PBE-1.0.upf`, `Si_ONCV_PBE-1.0.upf`; MD5 sums in `data/envanter_B.log`); 80/320 Ry for relaxations and site energies, 90/360 Ry for equations of state; 2 × 2 × 2 Monkhorst–Pack mesh; Gaussian smearing 0.005 Ry; spin-unpolarized; `etot_conv_thr = 1e-5` Ry, `forc_conv_thr = 1e-4` Ry/bohr; ordered P23 cell, a = 10.3625 Å. PAW projections: pslibrary 1.0.0, 60/480 Ry. HSE06: `ecutfock` 160 Ry, q-mesh 1 × 1 × 1, fixed occupations. Full details in the article.
+Quantum ESPRESSO 7.2; PBE; SG15 ONCV pseudopotentials v1.0 (`Bi_ONCV_PBE-1.0.upf`, `Ga_ONCV_PBE-1.0.upf`, `O_ONCV_PBE-1.0.upf`, `Si_ONCV_PBE-1.0.upf`; MD5 sums in `data/envanter_B.log`, added with `calc/`); 80/320 Ry for relaxations and site energies, 90/360 Ry for equations of state; 2 × 2 × 2 Monkhorst–Pack mesh; Gaussian smearing 0.005 Ry; spin-unpolarized; `etot_conv_thr = 1e-5` Ry, `forc_conv_thr = 1e-4` Ry/bohr; ordered P23 cell, a = 10.3625 Å. PAW projections: pslibrary 1.0.0, 60/480 Ry. HSE06: `ecutfock` 160 Ry, q-mesh 1 × 1 × 1, fixed occupations. Full details in the article.
 
 Starting geometries of the vacancy configurations A, B and C are the relaxed iron-sillenite structures of a companion study (N. Paran, submitted to J. Solid State Chem., JSSC-26-2217) with Fe replaced by Ga; those iron structures belong to that study and are not redistributed here. External structures: α-Ga (COD 9008085), β-Ga₂O₃ (COD 2004987), Bi₁₂SiO₂₀ (COD 1533225).
 
-The scripts use Turkish identifiers and messages (`uret` = generate inputs, `oku` = read results, `DUR` = stop). They expect the cluster directory layout `/arf/scratch/nparan/SilenitB/`, which can be overridden with the environment variables `SILB` and `SILF`.
+The scripts use Turkish identifiers and messages (`uret` = generate inputs, `oku` = read results, `DUR` = stop). They are written for the cluster directory layout `/arf/scratch/nparan/SilenitB/` (path set near the top of each script; `ga_f1.py` also reads the environment variables `SILB` and `SILF`); edit that line to run them elsewhere.
 
 ## License
 
