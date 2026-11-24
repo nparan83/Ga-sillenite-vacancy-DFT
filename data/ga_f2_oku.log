@@ -1,0 +1,14 @@
+ad       JD BF adim             E(Ry)       P   F(Ry/b)       wall
+gaA_rel   1  1   27    -4774.95718634    5.18   0.00057      1h26m
+gaB_rel   1  1   51    -4775.01184329   -3.95   0.00060      2h43m
+gaC_rel   1  1   44    -4774.95094473    0.54   0.00051      4h56m
+dE(A-B) = +0.7436 eV   (Fe, Makale A: A +0.636, C +0.822)
+dE(C-B) = +0.8286 eV   (Fe, Makale A: A +0.636, C +0.822)
+geometri (a = 10.3625 A; olcekli = x0.9827 -> a_exp 10.183):
+A: Bi_tet(#26) kayma||[111] +0.088 (|u| 0.088; olcekli +0.087) | Bi_tet-O 2.187 2.187 2.187 2.681 3.073
+   Ga kayma||[111] -0.753 (|u| 0.753) | Ga-O 1.863 1.863 1.863 1.981 3.838 | <2.3 A: 4 bag, olcekli ort 1.860
+B: Bi_tet(#26) kayma||[111] +0.317 (|u| 0.317; olcekli +0.312) | Bi_tet-O 2.118 2.118 2.118 3.159 3.159
+   Ga kayma||[111] -0.025 (|u| 0.025) | Ga-O 1.899 1.907 1.907 1.907 3.452 | <2.3 A: 4 bag, olcekli ort 1.872
+C: Bi_tet(#26) kayma||[111] +0.049 (|u| 0.108; olcekli +0.048) | Bi_tet-O 2.233 2.247 2.278 2.443 2.838
+   Ga kayma||[111] -0.043 (|u| 0.080) | Ga-O 1.894 1.895 1.898 1.899 3.252 | <2.3 A: 4 bag, olcekli ort 1.864
+Radaev 1989 (Ga, notron): Bi_T kayma 0.3175 A, Ga-O 1.879 A; Fe/PBE B: kayma +0.321 (olcekli +0.315)

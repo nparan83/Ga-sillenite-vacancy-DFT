@@ -1,0 +1,6 @@
+gaS_hse: JD 1 | 9 scf blogu | son dexx 2.6E-09 | NOT achieved False | E -4789.46843884 Ry | 49m13.92s
+   k2: PBE gap 0.871 eV (PAW k2: S 0.930 / B 2.239) | HSE gap 2.040 eV | kayma +1.169 | PBE k4 0.871 -> HSE (makas) 2.040 eV
+gaB_hse: JD 1 | 9 scf blogu | son dexx 3.0E-09 | NOT achieved False | E -4757.70896024 Ry | 47m42.49s
+   k2: PBE gap 2.210 eV (PAW k2: S 0.930 / B 2.239) | HSE gap 3.201 eV | kayma +0.991 | PBE k4 2.210 -> HSE (makas) 3.201 eV
+HSE: gap(B) - gap(S) = 1.161 eV | deney araligina uzaklik B 0.21, S 0.64 eV
+KARAR: H-KORUNUR (fark >= 1.0 eV ve B deneye daha yakin)

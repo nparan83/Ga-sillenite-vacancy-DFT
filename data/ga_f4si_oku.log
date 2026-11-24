@@ -1,0 +1,12 @@
+si_s0.960: JD 1 bfgs 1 adim 27 P +9.07 GPa | Si-O 1.651 1.651 1.651 1.651 | 1h25m
+si_s0.970: JD 1 bfgs 1 adim 22 P +6.22 GPa | Si-O 1.657 1.657 1.657 1.657 | 1h12m
+si_s0.980: JD 1 bfgs 1 adim 21 P +3.73 GPa | Si-O 1.663 1.663 1.663 1.663 | 1h10m
+si_s0.990: JD 1 bfgs 1 adim 19 P +1.75 GPa | Si-O 1.669 1.669 1.669 1.669 | 57m31.29s
+si_s1.000: JD 1 bfgs 1 adim 22 P -0.03 GPa | Si-O 1.674 1.674 1.674 1.674 | 1h16m
+si_s1.010: JD 1 bfgs 1 adim 24 P -1.38 GPa | Si-O 1.680 1.680 1.680 1.680 | 1h21m
+si_s1.020: JD 1 bfgs 1 adim 22 P -2.64 GPa | Si-O 1.684 1.684 1.684 1.684 | 1h22m
+BM3 E(V): V0 1085.98 A3, a0 10.2787 A, B0 51.9 GPa, B0p 5.80 | maks artik 4.27 meV | maks |P_fit-P_QE| 0.06 GPa | V0 aralikta True
+P(V)=0 (ikinci derece): a0 10.2731 A (maks artik 0.118 GPa)
+S4 kafes: a0/a_exp - 1 = +1.72 % (Si) vs +1.71 % (Ga) -> fark 0.01 % : olcek 0.9827 TASINABILIR
+S5 B0: PBE 51.9 vs deney 63 GPa -> -17.6 % : |dB| > %10 -> Ga B0 duzeltme notuyla | Ga B0 ham 45.6, olceklenmis tahmin 55.3 GPa, oran B0(Ga)/B0(Si) = 0.878
+yazildi: 99_analiz/eos_si.dat

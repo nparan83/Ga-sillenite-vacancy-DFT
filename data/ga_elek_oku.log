@@ -1,0 +1,12 @@
+== S (Bi25GaO40) ==
+  SG15 nscf k4: N 628, 11 k | VBM 9.170 CBM 10.041 eV | gap 0.871 eV (k#1 -> k#10) | en kucuk dogrudan 0.916 eV | 6m34.41s
+  PAW scf k2: gap 0.930 eV | E -24603.758549 Ry | spilling 0.0048 | 3m49.11s
+  VB tepesi [VBM-1, VBM]: O p 83% Bi s 10% Bi p 6% O s 0% Ga p 0% Bi d 0%
+  CB tabani [CBM, CBM+1]: O p 64% Bi_tet s 26% Bi p 7% O s 2% Bi s 1% Bi d 0%
+  yazildi: 05_elek/pdos_gaS.dat
+== B (Bi25GaO39) ==
+  SG15 nscf k4: N 622, 14 k | VBM 9.136 CBM 11.347 eV | gap 2.210 eV (k#1 -> k#1) | en kucuk dogrudan 2.210 eV | 8m30.66s
+  PAW scf k2: gap 2.239 eV | E -24562.238481 Ry | spilling 0.0047 | 3m8.67s
+  VB tepesi [VBM-1, VBM]: O p 83% Bi s 9% Bi p 6% O s 0% Bi_tet p 0% Ga p 0%
+  CB tabani [CBM, CBM+1]: Bi p 61% O p 20% O s 10% Bi_tet p 5% Bi s 3% Bi_tet s 1%
+  yazildi: 05_elek/pdos_gaB.dat

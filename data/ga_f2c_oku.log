@@ -1,0 +1,14 @@
+ga2A_rel: JD 1 bfgs 1 adim 77 E -4770.51694857 Ry P -8.07 kbar F 0.00062 | 4h8m
+   Ga (orijin): ||[111] -0.774 | Ga-O<2.3: 4 bag, ort 1.890 | en yakin O 1.862 1.862 1.862 1.973 3.821
+   Ga (merkez): ||[111] -0.033 | Ga-O<2.3: 4 bag, ort 1.903 | en yakin O 1.902 1.902 1.902 1.905 3.414
+ga2B_rel: JD 1 bfgs 1 adim 123 E -4770.51690418 Ry P -7.90 kbar F 0.00047 | 6h35m
+   Ga (orijin): ||[111] -0.044 | Ga-O<2.3: 4 bag, ort 1.903 | en yakin O 1.903 1.903 1.903 1.906 3.374
+   Ga (merkez): ||[111] -0.779 | Ga-O<2.3: 4 bag, ort 1.889 | en yakin O 1.861 1.861 1.861 1.973 3.821
+ga2C_rel: JD 1 bfgs 1 adim 97 E -4770.51617112 Ry P -7.64 kbar F 0.00048 | 10h25m
+   Ga (orijin): ||[111] -0.090 | Ga-O<2.3: 4 bag, ort 1.897 | en yakin O 1.894 1.897 1.898 1.899 3.372
+   Ga (merkez): ||[111] -0.054 | Ga-O<2.3: 4 bag, ort 1.893 | en yakin O 1.870 1.899 1.901 1.901 3.435
+en dusuk: ga2A | dE(A) +0.0000 eV dE(B) +0.0006 eV dE(C) +0.0106 eV
+yol testi (2A ve 2B ayni site turu): |dE| = 0.6 meV (> 5 meV ise yol bagimliligi)
+ayrisma: Bi24Ga2O39 -> 24/25 Bi25GaO39 + 13/25 Ga2O3 : dE = +0.053 eV/f.u. (+0.8 meV/atom; > 0 ise Bi24Ga2O39 kararsiz, PBE oksit->oksit, duzeltmesiz)
+kafes: P(2) - P(Bi25GaO39) = -0.41 GPa (ayni hucre, 80 Ry) -> da ~ -0.0312 A (PBE), olcekli -0.0307 A (B0 45.6 GPa, birinci mertebe)
+deney a: Bi24Ga2O39 (00-042-0180) 10.1760 | Bi25GaO40 (00-046-0414) 10.1689 | Bi25GaO39 Radaev 1989 10.1830 -> kart farki 42-0180 - 46-0414 = +0.0071 A

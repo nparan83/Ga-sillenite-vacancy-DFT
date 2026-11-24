@@ -1,0 +1,9 @@
+ga2A_s0.970: JD 1 bfgs 1 adim 45 P 4.96 GPa | Ga(orijin) -0.699/4 bag Ga(merkez) -0.037/4 bag | 2h34m
+ga2A_s0.980: JD 1 bfgs 1 adim 49 P 2.85 GPa | Ga(orijin) -0.730/4 bag Ga(merkez) -0.031/4 bag | 2h40m
+ga2A_s0.990: JD 1 bfgs 1 adim 49 P 1.06 GPa | Ga(orijin) -0.755/4 bag Ga(merkez) -0.029/4 bag | 2h55m
+ga2A_s1.000: JD 1 bfgs 1 adim 2 P -0.47 GPa | Ga(orijin) -0.774/4 bag Ga(merkez) -0.033/4 bag | 7m6.52s
+Bi24Ga2O39 (2A): V0 1101.70 A3, a0 10.3281 A (P fit maks artik 0.016 GPa)
+Bi25GaO39  (B) : V0 1110.88 A3, a0 10.3567 A (P fit maks artik 0.032 GPa; BM3 sikistirma kolu V0 1111.40)
+Da = a0(Bi24Ga2O39) - a0(Bi25GaO39) = -0.0286 A (PBE), -0.0281 A olcekli | birinci mertebe tahmin -0.0307 A
+KARAR: |Da| > 0.02 A -> kart 42-0180 a degeri tam Ga2 bilesimiyle UYUMSUZ
+beklenen a(Bi24Ga2O39): Radaev Bi25GaO39 10.183 -> 10.155 | 46-0414 Bi25Ga 10.1689 -> 10.141 | kart 42-0180: 10.1760

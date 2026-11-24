@@ -1,0 +1,7 @@
+gaB_s1.005_c: JD 1 bfgs 1 adim 65 E -4775.01855372 Ry P -0.57 GPa | Ga -0.052 Bi_tet +0.301 | Ga-O 1.893 1.912 1.912 1.912 | 4h5m
+gaB_s1.005_o: JD 1 bfgs 1 adim 46 E -4775.01855387 Ry P -0.57 GPa | Ga -0.052 Bi_tet +0.301 | Ga-O 1.893 1.912 1.912 1.912 | 2h52m
+E(o) - E(c) = -0.00 meV | Ga(o) - Ga(c) = -0.001 A
+KARAR C1: tek minimum (iki baslangic ayni yere)
+s=1.005 en dusuk durum merkez-disi -> merkezli kola ALINMADI
+MERKEZLI KOL BM3 (5 nokta): V0 1111.40 A3 (a0 10.3583) | B0 45.6 GPa | B0p 6.36 | artik 0.25 meV | maks |dP| 0.07 GPa | V0 icte True | min P -0.08 GPa
+E2' OK  E3' OK  E4' X  n>=6 X  -> yalniz B0 (B0p yok)

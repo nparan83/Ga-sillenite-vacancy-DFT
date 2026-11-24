@@ -1,0 +1,15 @@
+{
+  "title": "Data and scripts for: Oxygen-vacancy site selectivity in gallium sillenite (Bi25GaO39, Bi24Ga2O39) from first principles",
+  "upload_type": "dataset",
+  "description": "Quantum ESPRESSO inputs and outputs, derived data files, relaxed structures and analysis/plotting scripts for a first-principles (PBE, HSE06) study of oxygen-vacancy site selectivity in gallium sillenite Bi25GaO39, the counterfactual composition Bi24Ga2O39, the Bi5+-ordered model Bi25GaO40 and the reference sillenite Bi12SiO20 (equations of state). The README maps every table and figure of the associated article to the data files and scripts that produce it.",
+  "creators": [
+    {
+      "name": "Paran, Nejdet",
+      "affiliation": "Department of Physics, Faculty of Science, Erciyes University, 38039 Kayseri, Türkiye",
+      "orcid": "0000-0003-0317-0438"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["sillenite", "Bi25GaO39", "Bi24Ga2O39", "oxygen vacancy", "density functional theory", "HSE06", "equation of state", "Quantum ESPRESSO"],
+  "access_right": "open"
+}

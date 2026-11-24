@@ -1,0 +1,23 @@
+# kaynak: /arf/scratch/nparan/SilenitB (+ Fe 06_referans: O2, Bi_bulk, Bi2O3)
+mu_O O-rich -31.80512335 Ry | O-poor (Bi+Ga metal sinir) -31.94454621 Ry | aralik 1.897 eV
+
+T1  Bi25GaO39 O bosluk siteleri (80/320, k2, SG15 relaks)
+site     dE (eV)   Ef rich   Ef poor   Bt||111   Ga||111 Ga-O<2.3 (olcekli)
+B        +0.0000    -0.035    -1.932    +0.317    -0.025      4 x 1.872
+A        +0.7436    +0.709    -1.188    +0.088    -0.753      4 x 1.860
+C        +0.8286    +0.794    -1.103    +0.049    -0.043      4 x 1.864
+
+T2  referanslar (PBE, 80/320)
+dH_f Bi2O3 -5.811 eV/f.u. | dH_f beta-Ga2O3 -9.024 eV/f.u.
+hull: Bi25GaO40 +1.276 eV/hucre (+0.0193 eV/atom) | Bi25GaO39 +1.241 eV/hucre (+0.0191 eV/atom)
+
+T3  Bi24Ga2O39 (Bi_tet -> Ga)
+ga2A  dE +0.0000 eV  P -8.07 kbar
+ga2B  dE +0.0006 eV  P -7.90 kbar
+ga2C  dE +0.0106 eV  P -7.64 kbar
+ayrisma -> 24/25 Bi25GaO39 + 13/25 Ga2O3: +0.053 eV/f.u. (+0.82 meV/atom) | da (birinci mertebe, B0 45.6 GPa) -0.0307 A olcekli
+
+T4  bant araliklari (eV)
+S (Bi25GaO40): PBE SG15 k4 0.871 | PAW k2 0.930 | HSE06 k2: gaS_hse 2.040 | gaS_f320_hse 2.040
+B (Bi25GaO39): PBE SG15 k4 2.210 | PAW k2 2.239 | HSE06 k2: gaB_hse 3.201
+deney (durum 2b): 2.68 (Wang 2012), 2.95 (Lin 2008), 2.99 (Kargin derlemesi)

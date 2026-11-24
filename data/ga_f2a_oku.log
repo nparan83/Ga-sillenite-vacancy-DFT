@@ -1,0 +1,5 @@
+gaA0_rel: JD 1 bfgs 1 adim 107 E -4774.95719014 Ry P 5.16 F 0.00042 wall 5h54m
+Ga ||[111] -0.753 (|u| 0.753) | Ga-O 1.863 1.863 1.863 1.981 3.839
+Bi_tet ||[111] +0.090 | Bi_tet-O 2.187 2.187 2.187 2.682 3.074
+E(A0) - E(gaA_rel) = -0.1 meV | E(A0) - E(gaB_rel) = +0.7436 eV  (gaA_rel: Ga -0.753, A-B +0.7436)
+KARAR R1: ters donme KENDILIGINDEN (ayni minimum)

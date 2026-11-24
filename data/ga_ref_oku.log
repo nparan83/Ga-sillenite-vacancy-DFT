@@ -1,0 +1,11 @@
+aGa vc: JD 1 bfgs 1 adim 18 P -1.44 kbar | a,b,c 4.5733 7.7645 4.5816 (CIF 4.5230 7.6610 4.5240; +1.11/+1.35/+1.27 %) beta 90.00 (CIF 90.00) | 44m31.19s
+   Ga komsu: 2.532 2.714 2.714 2.771
+   scf 80/320: E -1050.37409341 Ry  P -8.03 kbar  | E/birim: -131.29676168 Ry/Ga
+bGa2O3 vc: JD 1 bfgs 1 adim 13 P -0.85 kbar | a,b,c 12.4616 3.0855 5.8812 (CIF 12.2140 3.0371 5.7981; +2.03/+1.59/+1.43 %) beta 103.72 (CIF 103.83) | 15m13.08s
+   Ga komsu: 1.860 1.862 1.862 1.897
+   Ga komsu: 1.968 1.968 1.973 2.041
+   O komsu: 1.860 1.968 1.968 3.338
+   O komsu: 1.897 2.041 2.107 2.107
+   O komsu: 1.862 1.862 1.973 3.454
+   scf 80/320: E -1434.68843804 Ry  P -10.25 kbar  | E/birim: -358.67210951 Ry/Ga2O3
+DeltaH_f(beta-Ga2O3) = E(Ga2O3) - 2 mu(Ga) - 3/2 E(O2) = -9.024 eV/f.u. (PBE, O2 duzeltmesiz; deney kiyasi kaynakla yapilacak)
