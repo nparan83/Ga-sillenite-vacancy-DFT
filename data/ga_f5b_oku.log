@@ -1,0 +1,3 @@
+f5_Br: JD 1 bfgs 1 adim 69 F 0.00046 | son ! enerji dE(B) -0.6 meV | bos site #63 B (0.613 0.613 0.613) | RMS/maks fark (gaB_rel, simetri) 0.018/0.036 A
+f5_Cp2: JD 1 bfgs 1 adim 19 F 0.00046 | son ! enerji dE(B) +1.1 meV | bos site #62 B (0.387 0.387 0.613) | RMS/maks fark (gaB_rel, simetri) 0.051/0.070 A
+K4: C' yerel minimum DEGIL; bosluk B'ye gecer (dE +1.1 meV). K3 tamamlanan siteler: min(D1, D2) - B ile karar.

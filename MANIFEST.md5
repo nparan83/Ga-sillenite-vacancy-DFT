@@ -2,10 +2,12 @@
 4a281bf04832dd96b31c227c70dc678f  ./.zenodo.json
 fd8b7a94b14d75169e65f845ff936b7d  ./CITATION.cff
 13573dd681f69656540c0650149266a4  ./LICENSE
-16c7e1a3fdde7f4a6e24d1cf9e70ecac  ./README.md
+80d121fbe0232f92c848d3751ff753c6  ./README.md
 581ddcecbc2435349af9a53933ddbdef  ./calc/01_yakinsama.tar.gz
 391d9808c50c912763642c409003d1c1  ./calc/02_O40.tar.gz
 86ae2aaf0d9e9ebebf95836cbcbe2056  ./calc/03_site.tar.gz
+93500f39042fb96b2acc04eb48f8cf7e  ./calc/03_site_f5.tar.gz.part_00
+4dc3cec697ea710ba03103bf3f94aec6  ./calc/03_site_f5.tar.gz.part_01
 132672c69dc373a2a20dd32e713eeb74  ./calc/04_eos.tar.gz.part_00
 76306a69afa91aa864d6f1c1a9d4b510  ./calc/04_eos.tar.gz.part_01
 b2e7e3ef2e29ea4612be23f25d68f7b9  ./calc/05_elek.tar.gz
@@ -36,6 +38,9 @@ d585e3a473c661819dfa39d759c6597c  ./data/ga_f2cb_oku.log
 6252f825be83211838bd55db0fd00d43  ./data/ga_f4b_oku.log
 9fc6823ffcfa9bc248873e7688f02809  ./data/ga_f4c_oku.log
 76da3e3278ebc63441a41c179ed72440  ./data/ga_f4si_oku.log
+61144ec534850c4e7d3e092d4af220f6  ./data/ga_f5_oku.log
+14f68dfc266db643b22675102e7ba80c  ./data/ga_f5b_oku.log
+4b3a8f917e0094bcf50d4ffe3402f805  ./data/ga_f5b_tani.log
 b5b3e4ed72d214feeea98d5122622d94  ./data/ga_hse_oku.log
 44429f56cbad4cee9565f976b7cf3dd7  ./data/ga_ref_oku.log
 450bf2b6462e73471917e4913a9cd094  ./data/ga_tablolar.txt
@@ -55,6 +60,8 @@ b795b2254c3375d88f5ea417e3803635  ./scripts/ga_f4b.py
 6e179002c4c9a435405b7ea4ce530e83  ./scripts/ga_f4c.py
 3e94b19ef8c8fbc53e47771c3853a0ae  ./scripts/ga_f4si.py
 f13b395ca8f7e14b1e5b84b5f6d9315e  ./scripts/ga_f5.py
+480977a612eb6ccf6c578965d9dbd599  ./scripts/ga_f5b.py
+0a57800da4431f86b92de6d7b93aefbb  ./scripts/ga_f5c.py
 8608e4b2ec238a325656c38ba61f43b8  ./scripts/ga_hse.py
 370ea433e1e72db553bdba2263e54a70  ./scripts/ga_paket.sh
 b613ae8bc2e4b8938ca1a59d19e39ade  ./scripts/ga_ref.py
@@ -68,4 +75,4 @@ d9f87fc7777276e83b8a73286895c679  ./scripts/jobs/job_eos.sh
 55eac724667710ddfd88f733cf5bc907  ./scripts/jobs/job_ref.sh
 3f2123ca2f5eed35dfad11b497922a2c  ./scripts/jobs/job_site.sh
 224c4f47523adb4b485a0ca6b65ea014  ./scripts/jobs/job_yak.sh
-8b15bf31b5af031aba23f5ab8ad4c29c  ./scripts/scripts_md5.txt
+3ba92c498efec616635b17a34d515309  ./scripts/scripts_md5.txt

@@ -1,0 +1,6 @@
+baglam (F2): A +0.7436  C +0.8286 eV (gaB_rel = 0)
+f5_D1: JD 1 bfgs 1 adim 80 F 0.00042 P -0.62 kbar | dE(B) +0.8476 eV | V_O yerine en yakin O 2.74 A | maks kayma 0.41 A (Bi) | Ga +0.08/4 | Bi_tet merkezden 0.05 A | 8h42m
+f5_D2: JD 1 bfgs 1 adim 75 F 0.00045 P +0.30 kbar | dE(B) +1.1342 eV | V_O yerine en yakin O 2.88 A | maks kayma 0.45 A (Bi) | Ga +0.08/4 | Bi_tet merkezden 0.04 A | 8h20m
+f5_Cp: JD 0 bfgs 0 adim 144 F 0.00116 P -3.54 kbar | dE(B) +0.0013 eV | V_O yerine en yakin O 0.06 A | maks kayma 3.17 A (O) | Ga +0.03/4 | Bi_tet merkezden 0.29 A | ?
+f5_Br: JD 1 bfgs 1 adim 69 F 0.00046 P -4.00 kbar | dE(B) -0.0006 eV | V_O yerine en yakin O 3.19 A | maks kayma 0.32 A (Bi) | Ga -0.01/4 | Bi_tet merkezden 0.32 A | 7h19m
+### K1: 4/4 JD + bfgs gerekir
