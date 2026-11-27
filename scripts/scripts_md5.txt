@@ -13,6 +13,7 @@ b795b2254c3375d88f5ea417e3803635  ga_f4b.py
 f13b395ca8f7e14b1e5b84b5f6d9315e  ga_f5.py
 480977a612eb6ccf6c578965d9dbd599  ga_f5b.py
 0a57800da4431f86b92de6d7b93aefbb  ga_f5c.py
+b125cee12c6434ba99cec60cbecf6815  ga_f5c_ga.py
 8608e4b2ec238a325656c38ba61f43b8  ga_hse.py
 b613ae8bc2e4b8938ca1a59d19e39ade  ga_ref.py
 9dee52ca486ca690a991fc0d08663f5e  ga_sekil_veri.py

@@ -4,7 +4,7 @@ Data and scripts for the article
 
 > N. Paran, *Oxygen-vacancy site selectivity in gallium sillenite requires tetrahedral bismuth: a first-principles counterfactual study of Bi₂₅GaO₃₉ and Bi₂₄Ga₂O₃₉* (in preparation).
 
-**Status:** work in progress. The complete oxygen-site set of Bi₂₅GaO₃₉ (stages F5, F5-b) is included. The O(2)-site relaxations of the counterfactual Bi₂₄Ga₂O₃₉ (stage F5-c; inputs `ga2D1_rel`, `ga2D2_rel`) are running and will be added to `calc/03_site.tar.gz`. A versioned release with a Zenodo DOI will be made at submission; until then file contents may change.
+**Status:** all calculations of the article are included. A versioned release with a Zenodo DOI will be made at submission; until then file contents (README, figure notebook) may still change.
 
 Author: Nejdet Paran, Department of Physics, Faculty of Science, Erciyes University, 38039 Kayseri, Türkiye · ORCID [0000-0003-0317-0438](https://orcid.org/0000-0003-0317-0438)
 
@@ -12,10 +12,10 @@ Author: Nejdet Paran, Department of Physics, Faculty of Science, Erciyes Univers
 
 | path | content |
 |---|---|
-| `calc/<stage>.tar.gz` | Quantum ESPRESSO inputs, outputs and `data-file-schema.xml` of every calculation, one archive per stage (see below). Archives larger than 9 MB are split, e.g. `cat 04_eos.tar.gz.part_* > 04_eos.tar.gz` (same for `03_site_f5`). Wavefunctions, charge densities and pseudopotential files are not included. |
+| `calc/<stage>.tar.gz` | Quantum ESPRESSO inputs, outputs and `data-file-schema.xml` of every calculation, one archive per stage (see below). Archives larger than 9 MB are split, e.g. `cat 04_eos.tar.gz.part_* > 04_eos.tar.gz` (same for `03_site` and `03_site_f5`). Wavefunctions, charge densities and pseudopotential files are not included. |
 | `data/` | Derived data files read by the figure script, the summary logs written by the analysis scripts (`*_oku.log`), the table file `ga_tablolar.txt`, and the relaxed structures (`*.xsf`, Cartesian Å). |
 | `scripts/` | Analysis scripts that generate the inputs (`uret`) and read the outputs (`oku`) of each stage on the cluster; `scripts_md5.txt` lists their MD5 sums. `ga_paket.sh` builds the `calc/` archives. `scripts/jobs/` holds the SLURM job scripts (TRUBA, 56 cores per job). |
-| `figures/make_figures_colab.py` | Produces Figs. 1–6 from `data/` (Google Colab or local Python). |
+| `figures/SilenitB_figures.ipynb` | Produces Figs. 1–6 from `data/`, one notebook cell per figure (cell 0 = setup; cell 3b = Fig. 3, cell 3 = three-site variant). Runs in Google Colab or locally. |
 | `MANIFEST.md5` | MD5 sums of all files; check with `md5sum -c MANIFEST.md5`. |
 
 ### Calculation stages (`calc/`)
@@ -24,7 +24,7 @@ Author: Nejdet Paran, Department of Physics, Faculty of Science, Erciyes Univers
 |---|---|---|
 | `01_yakinsama` | F1b | cutoff and k-point convergence (stoichiometric and two vacancy cells) |
 | `02_O40` | F1 | stoichiometric Bi₂₅GaO₄₀ (Bi⁵⁺-ordered model), relaxed |
-| `03_site` | F2, F2a, F2c | vacancy configurations A, B, C of Bi₂₅GaO₃₉; A from an un-inverted start (`gaA0_rel`); counterfactual Bi₂₄Ga₂O₃₉ (2A, 2B, 2C) |
+| `03_site` | F2, F2a, F2c, F5-c | vacancy configurations A, B, C of Bi₂₅GaO₃₉; A from an un-inverted start (`gaA0_rel`); counterfactual Bi₂₄Ga₂O₃₉ (2A, 2B, 2C, and the O(2) sites 2D1, 2D2) |
 | `03_site_f5` | F5, F5-b | remaining oxygen sites D1, D2, C′ and control B (`f5_Br`), all started from the stoichiometric cell minus one O with ±0.03 Å random displacements; `f5_Cp` stopped at the 16 h limit and was continued as `f5_Cp2` |
 | `04_eos` | F4, F4b, F4c, F2c-b, F4-Si | fixed-volume relaxations for the equations of state of Bi₂₅GaO₃₉ (B), Bi₂₅GaO₄₀, Bi₂₄Ga₂O₃₉ (2A) and Bi₁₂SiO₂₀ |
 | `05_elek` | F2b-2 | 4 × 4 × 4 non-self-consistent gaps; PAW projected densities of states (summary `pdos_ga{S,B}.dat`) |
@@ -39,12 +39,12 @@ Author: Nejdet Paran, Department of Physics, Faculty of Science, Erciyes Univers
 | Sec. 3.2 (D1, D2, C′) | `calc/03_site_f5`, `data/ga_f5_oku.log`, `data/ga_f5b_tani.log`, `data/ga_f5b_oku.log` | `scripts/ga_f5.py oku`, `scripts/ga_f5b.py tani`/`oku` |
 | Table 2 (neutron model) | `calc/03_site` (`gaB_rel`), `data/ga_f2_oku.log` | `scripts/ga_f2.py oku` |
 | Table 3 (site and formation energies) | `data/ga_tablolar.txt` (T1), `data/ga_ref_oku.log`, `data/ga_f5_oku.log` (D1, D2: E_form = E_form(B) + ΔE) | `scripts/ga_tablo.py`, `scripts/ga_ref.py oku`, `scripts/ga_f5.py oku` |
-| Table 4 (Bi₂₄Ga₂O₃₉) | `data/ga_f2c_oku.log`, `data/ga_tablolar.txt` (T3); 2D1/2D2 pending | `scripts/ga_f2c.py oku`, `scripts/ga_f5c.py oku` |
+| Table 4 (Bi₂₄Ga₂O₃₉) | `data/ga_f2c_oku.log`, `data/ga_tablolar.txt` (T3), `data/ga_f5c_oku.log`, `data/ga_f5c_ga.log` | `scripts/ga_f2c.py oku`, `scripts/ga_f5c.py oku`, `scripts/ga_f5c_ga.py` |
 | Table 5 (gaps) | `data/ga_elek_oku.log`, `data/ga_hse_oku.log`, `data/ga_tablolar.txt` (T4) | `scripts/ga_elek.py oku`, `scripts/ga_hse.py oku` |
 | Table 6 (equations of state) | `data/eos_*.dat`, `data/ga_f4c_oku.log`, `data/ga_f2cb_oku.log`, `data/ga_f4si_oku.log` | `scripts/ga_f4*.py`, `scripts/ga_f2cb.py`, `scripts/ga_f4si.py` |
 | Δa (Sec. 3.3, Fig. 6) | `data/ga_f2cb_oku.log`, `data/eos_ga2A.dat` | `scripts/ga_f2cb.py oku` |
-| Fig. 1 | `data/*.xsf` | `figures/make_figures_colab.py` |
-| Figs. 2, 3 | `data/ga_tablolar.txt` | idem |
+| Fig. 1 | `data/*.xsf` | `figures/SilenitB_figures.ipynb` |
+| Figs. 2, 3 | `data/ga_tablolar.txt`, `data/ga_f5_oku.log`, `data/ga_f5c_oku.log` (Fig. 2) | idem |
 | Fig. 4 | `data/eos_ozet.dat`, `eos_gaS.dat`, `eos_si.dat`, `eos_ga2A.dat` | idem |
 | Fig. 5 | `data/pdos_gaS.dat`, `pdos_gaB.dat`, `data/ga_tablolar.txt` | idem |
 | Fig. 6 | `data/ga_f2cb_oku.log` (Δa); measured lattice parameters from the literature (in the script, with sources) | idem |
@@ -52,7 +52,7 @@ Author: Nejdet Paran, Department of Physics, Faculty of Science, Erciyes Univers
 Reproduce the figures locally:
 
 ```bash
-SILB_LOCAL=data SILB_OUT=figures/out python3 figures/make_figures_colab.py
+SILB_LOCAL=data SILB_OUT=figures/out jupyter nbconvert --to notebook --execute figures/SilenitB_figures.ipynb --output /tmp/figs_run.ipynb
 ```
 
 ## Computational details (summary)

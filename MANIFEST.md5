@@ -2,10 +2,11 @@
 4a281bf04832dd96b31c227c70dc678f  ./.zenodo.json
 fd8b7a94b14d75169e65f845ff936b7d  ./CITATION.cff
 13573dd681f69656540c0650149266a4  ./LICENSE
-80d121fbe0232f92c848d3751ff753c6  ./README.md
+7301b8880a14ca0734d31083b60a6c90  ./README.md
 581ddcecbc2435349af9a53933ddbdef  ./calc/01_yakinsama.tar.gz
 391d9808c50c912763642c409003d1c1  ./calc/02_O40.tar.gz
-86ae2aaf0d9e9ebebf95836cbcbe2056  ./calc/03_site.tar.gz
+980e0cf6246a228903aa9e628b14c014  ./calc/03_site.tar.gz.part_00
+b1cff7a8333905ef8d3cf50a2c91f581  ./calc/03_site.tar.gz.part_01
 93500f39042fb96b2acc04eb48f8cf7e  ./calc/03_site_f5.tar.gz.part_00
 4dc3cec697ea710ba03103bf3f94aec6  ./calc/03_site_f5.tar.gz.part_01
 132672c69dc373a2a20dd32e713eeb74  ./calc/04_eos.tar.gz.part_00
@@ -41,12 +42,18 @@ d585e3a473c661819dfa39d759c6597c  ./data/ga_f2cb_oku.log
 61144ec534850c4e7d3e092d4af220f6  ./data/ga_f5_oku.log
 14f68dfc266db643b22675102e7ba80c  ./data/ga_f5b_oku.log
 4b3a8f917e0094bcf50d4ffe3402f805  ./data/ga_f5b_tani.log
+800b905d4acfb3a805945ff3e7bf6690  ./data/ga_f5c_ga.log
+e5175379df5ad5849485c0f6e3d1093a  ./data/ga_f5c_oku.log
 b5b3e4ed72d214feeea98d5122622d94  ./data/ga_hse_oku.log
 44429f56cbad4cee9565f976b7cf3dd7  ./data/ga_ref_oku.log
 450bf2b6462e73471917e4913a9cd094  ./data/ga_tablolar.txt
 2e90a4d4893ec96c49fcad1a90d02939  ./data/pdos_gaB.dat
 7103be42b12d5e369d51ee5869994975  ./data/pdos_gaS.dat
-89e65b91d8007353715c40c247bee976  ./figures/make_figures_colab.py
+6a05fe8dd895404d6a966194340d6dc5  ./figures/SilenitB_figures.ipynb
+108d5eafee7595953d1d6fcee8a16c35  ./scripts/__pycache__/ga_elek.cpython-313.pyc
+d17e4b6602ae6c0e574f84a2d2e1bdb9  ./scripts/__pycache__/ga_f1.cpython-313.pyc
+112f6c8a66d39c211878382cd0994f64  ./scripts/__pycache__/ga_f2.cpython-313.pyc
+0ae2a113bcb8f8186bce9812e90441bc  ./scripts/__pycache__/ga_f2c.cpython-313.pyc
 4a60267748d9c4c6be90f323ddc2028b  ./scripts/ga_elek.py
 59b86ec5357f36def85d926dccfd7e52  ./scripts/ga_f1.py
 477b0ece16543b9cc7dfa79f2689069d  ./scripts/ga_f2.py
@@ -62,6 +69,7 @@ b795b2254c3375d88f5ea417e3803635  ./scripts/ga_f4b.py
 f13b395ca8f7e14b1e5b84b5f6d9315e  ./scripts/ga_f5.py
 480977a612eb6ccf6c578965d9dbd599  ./scripts/ga_f5b.py
 0a57800da4431f86b92de6d7b93aefbb  ./scripts/ga_f5c.py
+b125cee12c6434ba99cec60cbecf6815  ./scripts/ga_f5c_ga.py
 8608e4b2ec238a325656c38ba61f43b8  ./scripts/ga_hse.py
 370ea433e1e72db553bdba2263e54a70  ./scripts/ga_paket.sh
 b613ae8bc2e4b8938ca1a59d19e39ade  ./scripts/ga_ref.py
@@ -75,4 +83,4 @@ d9f87fc7777276e83b8a73286895c679  ./scripts/jobs/job_eos.sh
 55eac724667710ddfd88f733cf5bc907  ./scripts/jobs/job_ref.sh
 3f2123ca2f5eed35dfad11b497922a2c  ./scripts/jobs/job_site.sh
 224c4f47523adb4b485a0ca6b65ea014  ./scripts/jobs/job_yak.sh
-3ba92c498efec616635b17a34d515309  ./scripts/scripts_md5.txt
+4057350ee58297b7a77d71e26bd828b0  ./scripts/scripts_md5.txt

@@ -1,0 +1,6 @@
+ga2D1_rel: JD 1 bfgs 1 adim 55 E -4770.50305548 Ry P -10.59 kbar F 0.00055 | 5h49m
+   Ga (orijin): ||[111] +0.079 | Ga-O<2.3: 4 bag, ort 1.891 | en yakin O 1.890 1.890 1.890 1.894 3.360
+   Ga (merkez): ||[111] -0.003 | Ga-O<2.3: 4 bag, ort 1.905 | en yakin O 1.897 1.908 1.908 1.908 3.331
+ga2D2_rel: JD 1 bfgs 1 adim 103 E -4770.50343830 Ry P -9.41 kbar F 0.00047 | 10h58m
+   Ga (orijin): ||[111] -0.000 | Ga-O<2.3: 4 bag, ort 1.902 | en yakin O 1.900 1.903 1.903 1.904 3.334
+   Ga (merkez): ||[111] +0.051 | Ga-O<2.3: 4 bag, ort 1.891 | en yakin O 1.890 1.890 1.890 1.892 3.377

@@ -1,0 +1,8 @@
+ga2A_rel: JD 1 bfgs 1 adim 77 F 0.00062 P -8.07 kbar | 4h8m
+ga2B_rel: JD 1 bfgs 1 adim 123 F 0.00047 P -7.90 kbar | 6h35m
+ga2C_rel: JD 1 bfgs 1 adim 97 F 0.00048 P -7.64 kbar | 10h25m
+ga2D1_rel: JD 1 bfgs 1 adim 55 F 0.00055 P -10.59 kbar | 5h49m
+ga2D2_rel: JD 1 bfgs 1 adim 103 F 0.00047 P -9.41 kbar | 10h58m
+dE (ga2A = 0, meV): A +0.0 B +0.6 C +10.6 D1 +189.0 D2 +183.8
+K5a yol testi |2D1 - 2D2| = 5.2 meV -> YOL BAGIMLI (dusuk olan kullanilir, metinde belirtilir)
+K5b D = min(2D) - 2A = +183.8 meV -> A/B/C altinda site yok; iddia yazildigi gibi
